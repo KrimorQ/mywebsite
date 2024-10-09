@@ -35,7 +35,7 @@
                 <fieldset>
                     <legend>Company information</legend>
                     <label for="permanent-employee"><input id="permanent-employee" name="work-position" type="radio" value="1" >Permanent Employee</label> <!--hvist det er contract fra og til dato-->
-                    <label for="temporary-employee"><input id="temporary-employee" name="work-position" type="radio" value="1" checked>Temporary Employee</label> <!--deltid hvor mye prosent?-->
+                    <label for="temporary-employee"><input id="temporary-employee" name="work-position" type="radio" value="1" >Temporary Employee</label> <!--deltid hvor mye prosent?-->
                     <label for="temp-date">From</label><!--if selected temp, show the select option for temp-date. if picked permanent or not selected at all, dont show the temp-date-->
                         <select id="temp-date" name="temp-date">
                             <option value="0">(Date)</option>
@@ -71,6 +71,16 @@
                         </select>
                     <!--dropdown box med avdeling eller stillingen, leg til "other" tilfelle en er glemt-->
                     <label></label> <!--hvist velgt "other" legg til et skrive felt "stillings titel"-->
+                </fieldset>
+                <fieldset>
+                    <legend>Request CV to be sent?</legend>
+                    <label for="CV-request"><input name="CV-request" type="radio" value="1">Yes</label>
+                    <label for="CV-request"><input name="CV-request" type="radio" value="2">No</label>   
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>Additional information: </label>
+                    <textarea id="textbox" for="textbox" rows="10" cols="220" type="textbox" placeholder="write aditional information here if needed..."></textarea>
                 </fieldset>
             </form>
         </section>
