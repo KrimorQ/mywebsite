@@ -11,3 +11,8 @@ download roadmap
 skill section with logo and a progressbar of the skills (html, CSS, JS)
 js to make sure the email is working and existing
 add color around the form when you have input text (green around if correct)(red around if incorrect)
+light and dark mode button top right
+download for my CV?
+loading spinner if the site takes some time to load
+custom 404 error page
+add a blogg page for blogging my pogress
