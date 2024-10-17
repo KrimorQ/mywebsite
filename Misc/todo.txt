@@ -16,3 +16,4 @@ download for my CV?
 loading spinner if the site takes some time to load
 custom 404 error page
 add a blogg page for blogging my pogress
+put it all in the "roadmap" in github
