@@ -54,7 +54,26 @@ body {
     margin: 50px;
     box-shadow: 1px 1px 10px 1px grey;
     border-radius: 10px;
+    height: auto;
+}
     
+.about-me-picture {
+    display: flex;
+    align-items: center;
+}    
+
+.about-me-text-left {
+    margin-left: 40px;
+    font-size: 40px;
+    padding-right: 30%;
+
+}
+.about-me-text-right {
+    padding-right: 40%;
+    font-size: 60px;
+    margin-right: 20%;
+
+
 }
 a{
     color: cornflowerblue;
