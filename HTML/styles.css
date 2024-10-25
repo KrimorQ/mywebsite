@@ -48,6 +48,7 @@ body {
     box-shadow: 1px 1px 10px 2px #F47521;
     border-radius: 6px;
     margin: 10px;
+    transform: translateY(-3px);
 }
 .profile-picture {
     width: 30%;
