@@ -12,12 +12,13 @@ body {
     border-bottom: 4px solid #F47521;
 }
 .right-content {
-    gap: 15px;
+    gap: 20px;
     text-align: right;
     margin-top: -65px;
-    margin-right: 10px;
+    margin-right: 20px;
     display: flex;
     justify-content: right;
+    transform: translateY(-4px);
     
 }
 
