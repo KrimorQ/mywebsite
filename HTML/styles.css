@@ -36,8 +36,12 @@ body {
 .footer {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    background-color: #0a0a23;
+    padding: 1px;
+    color: #fff;
+    border-top: 4px solid #F47521;
+
 }
-    
 .logo {
     width: 50px;
     box-shadow: 1px 1px 10px 2px #F47521;
