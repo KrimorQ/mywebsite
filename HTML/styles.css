@@ -7,13 +7,10 @@
     font-size: 18px;
     font-family: sans-serif;
     font: bold;
-    display: flex;
     gap: 15px;
-}
-
-.text-header {
-    text-align: center;
-    font: bold;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-end;
 }
 
 .h1 {
