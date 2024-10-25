@@ -2,13 +2,15 @@
     font-size: 20px;
     font-family: sans-serif;
 }
-header {
+
+.header {
+    
 }
 
-h1 {
+.h1 {
 }
 
-footer {
+.footer {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -17,5 +19,20 @@ footer {
     font-size: 18px;
     font-family: sans-serif;
     font: bold
+    
+}
+
+.logo {
+    width: 50px;
+    box-shadow: 1px 1px 10px 1px #F47521;
+    border-radius: 6px;
+
+}
+
+.profile-picture {
+    width: 30%;
+    margin: 20px;
+    box-shadow: 1px 1px 10px 1px grey;
+    border-radius: 10px;
     
 }

@@ -1,20 +1,4 @@
-make the temp-date only show when promted "Temporory employment"
-replace KM3 picture with profile picture
-add Capcia2
-add home botton at the buttom of the page to take them up, put it in the footer
-clicking on header does not open a new page
-links are default colors and not purple intil its clicked on atleast once
-move "about me" and "portfolio" to their own page
-icons on the header and footer, hightlight them with the corespondent color of the site and push it out a bit when hovering.
-make sure it works on different devices (desktop, laptop, table, mobile)
-add a roadmap 
-skill section with logo and a progressbar of the skills (html, CSS, JS)
-js to make sure the email is working and existing
-add color around the form when you have input text (green around if correct)(red around if incorrect)
-light and dark mode button top right
-download for my CV?
-loading spinner if the site takes some time to load
-custom 404 error page
-add a blogg page for blogging my pogress
+--TO BE PUT IN GITHUB ROADMAP
+
 put it all in the "roadmap" in github
 make sure the text boxes are not password field
