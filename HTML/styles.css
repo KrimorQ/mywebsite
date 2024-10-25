@@ -2,30 +2,15 @@
     font-size: 20px;
     font-family: sans-serif;
 }
-body {
-    margin: 0%;
-    background-color: #fff;
-}
-.header {
-    background-color: #0a0a23;
-    color: #fff;
-    border-bottom: 4px solid #F47521;
-}
-.right-content {
-    gap: 15px;
-    text-align: right;
-    margin-top: -65px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: right;
-    
-}
 
-.text-header {
-    font-size: 30px;
-    text-align: center;
-    margin-top: -60px;
+.icon-header {
+    font-size: 18px;
+    font-family: sans-serif;
     font: bold;
+    gap: 15px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-end;
 }
 
 .h1 {
@@ -39,13 +24,15 @@ body {
     
 .logo {
     width: 50px;
-    box-shadow: 1px 1px 10px 2px #F47521;
+    box-shadow: 1px 1px 10px 1px #F47521;
     border-radius: 6px;
-    margin: 10px;
+    margin-top: auto;
+
 }
+
 .profile-picture {
     width: 30%;
-    margin: 50px;
+    margin: 20px;
     box-shadow: 1px 1px 10px 1px grey;
     border-radius: 10px;
     
