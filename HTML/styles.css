@@ -3,11 +3,20 @@
     font-family: sans-serif;
 }
 
-.header {
+.icon-header {
+    text-align: right;
+    display: flex;
+    gap: 15px;
+    justify-items: right;
+}
+
+.text-header {
+    text-align: center;
     
 }
 
-.h1 {
+h1 {
+    font-size: 20px;
 }
 
 .footer {
@@ -26,6 +35,7 @@
     width: 50px;
     box-shadow: 1px 1px 10px 1px #F47521;
     border-radius: 6px;
+    margin-top: 14%;
 
 }
 
