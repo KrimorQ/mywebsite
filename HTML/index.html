@@ -18,8 +18,12 @@
                     </div>
                         <p class="text-header">Kristoffer Mortvedt Portfolio Website</p>
                     <div class="right-content">
-                        <img class="iconicon" src="/Github icon.png">
-                        <img class="iconicon" src="/LinkedIn icon.png">
+                    <a href="https://github.com/KrimorQ" target="_blank" alt="GitHub logo" class="image-link">
+                        <img class="icongit" src="/github-mark-white.png">
+                    </a>
+                    <a href="https://www.linkedin.com/in/kristoffer-m-360013237/" target="_blank" alt="LinkedIn logo" class="image-link">
+                        <img class="iconlinkedin" src="/LinkedIn icon.png">
+                    </a>
                         <p>Home</p>
                         <p>About</p>
                         <p>Portfolio</p>
@@ -41,11 +45,11 @@
             <!--put my skills and experience here?-->
         </section>
         <section>
-            <p class="about">About <strong>me</strong></p><!--move this to a seperate page-->
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem earum reiciendis assumenda ullam maiores ratione consequuntur, hic iusto maxime, dolore nesciunt inventore nam repellendus quasi laudantium blanditiis qui impedit omnis minus ea et aliquam. Labore atque animi est nemo aspernatur. </p>
+            <p class="company-work">Company's i worked at</p><!--move this to a seperate page-->
+            <p>Opero - Aker Solutions - Vakt&alarm</p>
         </section>
         <section class="page2"><!--have this at the bottum of the page-->
-            <p class="form"><strong>Contact form</strong></p>
+            <p class="form"><strong>Get in touch</strong></p>
             <!--contact form where they can request CV via email and add other options with variouse different methods to showcase what i can-->
             <form method="post"><!--add an "action" in the form to collect the information being sent to me-->
                 <fieldset>
@@ -55,7 +59,7 @@
                     <label for="company-name">Enter Company Name: <input id="company-name" name="company-name" type="text" required></label><!--add * to the field that is required-->
                 </fieldset>
                 <fieldset>
-                    <legend>Company information</legend>
+                    <legend>Position open for</legend>
                     <label for="permanent-employee"><input id="permanent-employee" name="work-position" type="radio" value="1" >Permanent Employee</label> <!--hvist det er contract fra og til dato-->
                     <label for="temporary-employee"><input id="temporary-employee" name="work-position" type="radio" value="1" >Temporary Employee</label> <!--deltid hvor mye prosent?-->
                     <label for="temp-date">From</label><!--if selected temp, show the select option for temp-date. if picked permanent or not selected at all, dont show the temp-date-->
@@ -102,8 +106,8 @@
                     </label>
                 </fieldset>
                 <fieldset>
-                    <label>Additional information: </label>
-                    <textarea id="textbox" for="textbox" rows="10" cols="220" type="textbox" placeholder="write aditional information here if needed..."></textarea>
+                    <legend>Additional information: </legend>
+                    <textarea id="textbox" for="textbox" rows="10" cols="220" type="textbox" placeholder="Write aditional information here if needed..."></textarea>
                 </fieldset>
                 <fieldset>
                     <label for="tos" name="tos"><input id="tos" name="tos" type="checkbox" required>I agree to the <a href="" target="_blank">Terms of Service</a> and <a href="" target="_blank">Privacy Policy.</a></label> <!-- make the link not purple and link to a tos/privacy text. and make it so it register it.-->
