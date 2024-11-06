@@ -1,4 +1,0 @@
---TO BE PUT IN GITHUB ROADMAP
-
-put it all in the "roadmap" in github
-make sure the text boxes are not password field
