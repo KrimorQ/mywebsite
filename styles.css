@@ -14,25 +14,48 @@ body {
     background-color: #0a0a23;
     color: #fff;
     border-bottom: 4px solid #F47521;
-    padding-inline-start: 0;
-    height: 100%
-}
-.right-content {
-    gap: 20px;
-    text-align: right;
-    margin-top: -65px;
-    margin-right: 20px;
+    padding: 10px;
     display: flex;
-    justify-content: right;
-    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
 }
 
 .text-header {
     font-size: 30px;
-    text-align: center;
-    margin-top: -60px;
+    margin: 0 auto;
     font: bold;
-    transform: translateY(6px);
+    align-items: center;
+
+}
+
+.right-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.right-content p {
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.right-content a {
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease, transform 0.2s ease;
+    transform: scale(1.05);
+    
+}
+.image-link img {
+    width: 25;
+    height: 25;
 }
 
 .h1 {
@@ -54,7 +77,6 @@ body {
     box-shadow: 0px 0px 10px 2px #F47521;
     border-radius: 6px;
     margin: 10px;
-    transform: translateY(-3px);
 }
 
 .icongit {
@@ -71,6 +93,7 @@ body {
     margin-top: 10px;
     box-shadow: 0px 0px 2px 2px #0077B5;
     border-radius: 6px;
+    
 }
 
 .profile-picture {
@@ -113,16 +136,16 @@ body {
     border: 0;
 }
 
-a{
+.footer a{
     color: cornflowerblue;
 }
-a:visited {
+.footer a:visited {
     color: cornflowerblue;
 }
-a:hover {
+.footer a:hover {
     color: brown;
 }
-a:active {
+.footer a:active {
     color: brown;
 }
 

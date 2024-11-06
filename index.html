@@ -13,24 +13,22 @@
     <main>
         <section class="page1">
             <header class="header">
-                <div class="icon-header">
-                    <div class="left-content">
-                        <img src="/Images/KM logo.png" alt="image of my logo with the initials KM" class="logo">
-                    </div>
-                        <p class="text-header">Kristoffer Mortvedt Portfolio Website</p>
-                    <div class="right-content">
+                <div class="left-content">
+                    <img src="/Images/KM logo.png" alt="image of my logo with the initials KM" class="logo">
+                </div>
+                <p class="text-header">Kristoffer Mortvedt Portfolio Website</p>
+                <div class="right-content">
                     <a href="https://github.com/KrimorQ" target="_blank" alt="GitHub logo" class="image-link">
                         <img class="icongit" src="Images/Github icon.png">
                     </a>
                     <a href="https://www.linkedin.com/in/kristoffer-m-360013237/" target="_blank" alt="LinkedIn logo" class="image-link">
                         <img class="iconlinkedin" src="Images/LinkedIn icon.png">
                     </a>
-                        <p><a href="index.html">Home</a></p>
-                        <p><a href="about.html">About</a></p>
-                        <p><a href="portfolio.html">Portfolio</a></p>
-                        <p><a href="contact.html">Contact</a></p>
-                        <p>dark/light mode</p>
-                    </div>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About</a></p>
+                    <p><a href="portfolio.html">Portfolio</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                    <p>dark/light mode</p>
                 </div>
             </header>
             <div class="about-me-picture">
@@ -49,75 +47,7 @@
             <p class="company-work">Company's i worked at</p><!--move this to a seperate page-->
             <p>Opero - Aker Solutions - Vakt&alarm</p>
         </section>
-        <section class="page2"><!--have this at the bottum of the page-->
-            <p class="form"><strong>Get in touch</strong></p>
-            <!--contact form where they can request CV via email and add other options with variouse different methods to showcase what i can-->
-            <form method="post"><!--add an "action" in the form to collect the information being sent to me-->
-                <fieldset>
-                    <legend>Fill out with your information</legend>
-                    <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required></label> <!--pass på at boksene gir mening--><!--add * to the field that is required-->
-                    <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required></label> <!--checkbox if "fast,deltid,contract etc." --><!--add * to the field that is required-->
-                    <label for="company-name">Enter Company Name: <input id="company-name" name="company-name" type="text" required></label><!--add * to the field that is required-->
-                </fieldset>
-                <fieldset>
-                    <legend>Position open for</legend>
-                    <label for="permanent-employee"><input id="permanent-employee" name="work-position" type="radio" value="1" >Permanent Employee</label> <!--hvist det er contract fra og til dato-->
-                    <label for="temporary-employee"><input id="temporary-employee" name="work-position" type="radio" value="1" >Temporary Employee</label> <!--deltid hvor mye prosent?-->
-                    <label for="temp-date">From</label><!--if selected temp, show the select option for temp-date. if picked permanent or not selected at all, dont show the temp-date-->
-                        <select id="temp-date" name="temp-date">
-                            <option value="0">(Date)</option>
-                            <option value="1">Jan</option>
-                            <option value="2">Feb</option>
-                            <option value="3">Mar</option>
-                            <option value="4">Apr</option>
-                            <option value="5">Mai</option>
-                            <option value="6">Jun</option>
-                            <option value="7">Jul</option>
-                            <option value="8">Aug</option>
-                            <option value="9">Sep</option>
-                            <option value="10">Oct</option>
-                            <option value="11">Nov</option>
-                            <option value="12">Des</option>
-                        </select>
-                    <label for="temp-date">To</label>
-                        <select id="temp-date" name="temp-date">
-                            <option value="0">(Date)</option>
-                            <option value="1">Jan</option>
-                            <option value="2">Feb</option>
-                            <option value="3">Mar</option>
-                            <option value="4">Apr</option>
-                            <option value="5">Mai</option>
-                            <option value="6">Jun</option>
-                            <option value="7">Jul</option>
-                            <option value="8">Aug</option>
-                            <option value="9">Sep</option>
-                            <option value="10">Oct</option>
-                            <option value="11">Nov</option>
-                            <option value="12">Des</option>
-                            <option value="13">Unknown</option>
-                        </select>
-                    <!--dropdown box med avdeling eller stillingen, leg til "other" tilfelle en er glemt-->
-                    <label></label><!--hvist velgt "other" legg til et skrive felt "stillings titel"-->
-                    <label>Persentage, use js to make it nice</label> <!--add a nice way to scale from 60-100% should pop up after selecting permanent/temporary-->
-                </fieldset>
-                <fieldset>
-                    <legend>Request CV to be sent?</legend>
-                    <label for="CV-request"><input name="CV-request" type="radio" value="1">Yes</label>
-                    <label for="CV-request"><input name="CV-request" type="radio" value="2">No</label>   
-                    </label>
-                </fieldset>
-                <fieldset>
-                    <legend>Additional information: </legend>
-                    <textarea id="textbox" for="textbox" rows="10" cols="220" type="textbox" placeholder="Write aditional information here if needed..."></textarea>
-                </fieldset>
-                <fieldset>
-                    <label for="tos" name="tos"><input id="tos" name="tos" type="checkbox" required>I agree to the <a href="" target="_blank">Terms of Service</a> and <a href="" target="_blank">Privacy Policy.</a></label> <!-- make the link not purple and link to a tos/privacy text. and make it so it register it.-->
-                </fieldset>
-                <fieldset>
-                <input name="submit" type="submit" value="Send">
-            </fieldset>
-            </form>
-        </section>
+        
     </main>
     <footer class="footer">
         <!--add icons for different social media, maybe a "home" to take them to the top of the page-->
