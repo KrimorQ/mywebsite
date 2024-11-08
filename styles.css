@@ -188,6 +188,20 @@ body {
     display: flex;
 }
 
+.blog-pictures-text {
+    margin-bottom: -14px;
+    padding-top: 25px;
+}
+.blog-pictures-text:first-of-type {
+    margin-top: -50px;
+}
+
+.end-of-blog {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
 .footer a{
     color: cornflowerblue;
 }
