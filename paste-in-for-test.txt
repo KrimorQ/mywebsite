@@ -1,9 +1,6 @@
-.blog-pictures {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    max-width: 100%;
-    padding: 10px;
-}
+    header
+    border-bottom: 4px solid #f4752100;
+    background: linear-gradient(#4e4e4e 25%, #2c2c2b 50%);
+
+        border-bottom: 0px solid #f4752100;
+    background: linear-gradient(#2c2c2b 15%, #4e4e4e 80%);
